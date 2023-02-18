@@ -2,7 +2,6 @@
 
 /**
  * main - entry point
- *
  * Description: Prints all possible different combinations of two digits.
  * Numbers must be separated by ", " followed by a space
  * The two digits must be different
@@ -12,7 +11,6 @@
  * You can only use the putchar function (every other function is forbidden)
  * You can only use putchar five times maximum in your code
  * You are not allowed to use any variable of type char
- *
  * Return: Always 0 (success)
  */
 int main(void)
@@ -22,7 +20,7 @@ int main(void)
     while (i < 100)
     {
         if (i / 10 < i % 10)
-        {
+    }
             putchar(i / 10 + '0');
             putchar(i % 10 + '0');
 
@@ -31,9 +29,8 @@ int main(void)
                 putchar(',');
                 putchar(' ');
             }
-        }
+        
         i++;
-    }
 
     putchar('\n');
     return (0);
