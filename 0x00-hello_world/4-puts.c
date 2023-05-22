@@ -1,12 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+/* this is my first C code
+ * i'm using function puts
  */
-int main(void)
+
+int main()
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+
+	return (0):
+
 }
